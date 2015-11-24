@@ -1,21 +1,21 @@
 {
-  "name": "gulpsetup",
+  "name": "mysite",
   "version": "1.0.0",
-  "description": "simple gulp setup",
+  "description": "mysite",
   "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001bgulpfile.js)",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coolguywbp/gulpsetup.git"
+    "url": "git+https://github.com/coolguywbp/mysite.git"
   },
   "author": "Kirill Inzhevatkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coolguywbp/gulpsetup/issues"
+    "url": "https://github.com/coolguywbp/mysitemysite/issues"
   },
-  "homepage": "https://github.com/coolguywbp/gulpsetup#readme",
+  "homepage": "https://github.com/coolguywbp/mysite#readme",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",

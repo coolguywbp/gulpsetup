@@ -1,0 +1,218 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-image',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\bower\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\browser-sync\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\del\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\express\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-concat\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-jshint\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-rename\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-run-sequence\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-sass\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-server-livereload\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-uglify\package.json
+18 info package.json gulp-rename@1.2.2 No license field.
+19 info package.json gulp-run-sequence@0.3.2 No license field.
+20 verbose readDependencies loading dependencies from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\package.json
+21 verbose install gulp-image is installed as 1.2.1
+22 silly cache add args [ 'gulp-image', null ]
+23 verbose cache add spec gulp-image
+24 silly cache add parsed spec { raw: 'gulp-image',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'gulp-image',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: '*',
+24 silly cache add   type: 'range' }
+25 silly addNamed gulp-image@*
+26 verbose addNamed "*" is a valid semver range for gulp-image
+27 silly addNameRange { name: 'gulp-image', range: '*', hasData: false }
+28 silly mapToRegistry name gulp-image
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-image
+32 verbose addNameRange registry:https://registry.npmjs.org/gulp-image not in flight; fetching
+33 verbose request uri https://registry.npmjs.org/gulp-image
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 02:17:03
+36 verbose request id 04032e438f18c06b
+37 verbose etag "75H44O0WZFDN1Q3Z4K5YTBJ6Q"
+38 http request GET https://registry.npmjs.org/gulp-image
+39 http 304 https://registry.npmjs.org/gulp-image
+40 silly get cb [ 304,
+40 silly get   { date: 'Mon, 23 Nov 2015 23:17:05 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=60',
+40 silly get     etag: '"75H44O0WZFDN1Q3Z4K5YTBJ6Q"',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-lhr6320-LHR',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1448320625.145611,VS0,VE1090',
+40 silly get     vary: 'Accept' } ]
+41 verbose etag https://registry.npmjs.org/gulp-image from cache
+42 verbose get saving gulp-image to C:\Users\Home\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-image\.cache.json
+43 silly addNameRange number 2 { name: 'gulp-image', range: '*', hasData: true }
+44 silly addNameRange versions [ 'gulp-image',
+44 silly addNameRange   [ '0.0.1',
+44 silly addNameRange     '0.0.2',
+44 silly addNameRange     '0.1.0',
+44 silly addNameRange     '0.1.1',
+44 silly addNameRange     '0.1.2',
+44 silly addNameRange     '0.1.3',
+44 silly addNameRange     '0.1.4',
+44 silly addNameRange     '0.1.5',
+44 silly addNameRange     '0.1.6',
+44 silly addNameRange     '0.2.0',
+44 silly addNameRange     '0.2.1',
+44 silly addNameRange     '0.3.0',
+44 silly addNameRange     '0.3.1',
+44 silly addNameRange     '0.3.2',
+44 silly addNameRange     '0.3.3',
+44 silly addNameRange     '0.3.4',
+44 silly addNameRange     '0.4.0',
+44 silly addNameRange     '0.4.1',
+44 silly addNameRange     '0.4.2',
+44 silly addNameRange     '0.4.3',
+44 silly addNameRange     '0.4.6',
+44 silly addNameRange     '0.4.7',
+44 silly addNameRange     '0.4.8',
+44 silly addNameRange     '0.5.0',
+44 silly addNameRange     '0.5.1',
+44 silly addNameRange     '0.5.2',
+44 silly addNameRange     '0.5.3',
+44 silly addNameRange     '0.5.4',
+44 silly addNameRange     '0.5.5',
+44 silly addNameRange     '0.5.6',
+44 silly addNameRange     '0.5.7',
+44 silly addNameRange     '0.5.8',
+44 silly addNameRange     '1.0.0',
+44 silly addNameRange     '1.0.1',
+44 silly addNameRange     '1.0.2',
+44 silly addNameRange     '1.0.3',
+44 silly addNameRange     '1.0.4',
+44 silly addNameRange     '1.0.5',
+44 silly addNameRange     '1.0.6',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.1.2',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.2.1' ] ]
+45 silly addNamed gulp-image@1.2.1
+46 verbose addNamed "1.2.1" is a plain semver version for gulp-image
+47 silly cache afterAdd gulp-image@1.2.1
+48 verbose afterAdd C:\Users\Home\AppData\Roaming\npm-cache\gulp-image\1.2.1\package\package.json not in flight; writing
+49 verbose afterAdd C:\Users\Home\AppData\Roaming\npm-cache\gulp-image\1.2.1\package\package.json written
+50 silly install resolved [ { name: 'gulp-image',
+50 silly install resolved     version: '1.2.1',
+50 silly install resolved     description: 'Optimize PNG, JPG, GIF, SVG images with gulp task.',
+50 silly install resolved     repository: { type: 'git', url: 'git://github.com/1000ch/gulp-image.git' },
+50 silly install resolved     author:
+50 silly install resolved      { name: '1000ch',
+50 silly install resolved        email: 'shogo.sensui@gmail.com',
+50 silly install resolved        url: 'http://github.com/1000ch' },
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     engines: { node: '>=0.10.0' },
+50 silly install resolved     scripts: { test: 'mocha --require intelli-espower-loader --timeout=50000 --reporter=spec test/test.js' },
+50 silly install resolved     bugs: { url: 'https://github.com/1000ch/gulp-image/issues' },
+50 silly install resolved     dependencies:
+50 silly install resolved      { 'advpng-bin': '^3.0.0',
+50 silly install resolved        async: '^1.5.0',
+50 silly install resolved        chalk: '^1.1.1',
+50 silly install resolved        filesize: '^3.1.4',
+50 silly install resolved        gifsicle: '^3.0.3',
+50 silly install resolved        'gulp-util': '^3.0.7',
+50 silly install resolved        'jpeg-recompress-bin': '^3.0.1',
+50 silly install resolved        'jpegoptim-bin': '^3.0.0',
+50 silly install resolved        'map-stream': '^0.1.0',
+50 silly install resolved        mozjpeg: '^4.0.1',
+50 silly install resolved        'object-assign': '^4.0.1',
+50 silly install resolved        'optipng-bin': '^3.0.3',
+50 silly install resolved        'pngquant-bin': '^3.0.0',
+50 silly install resolved        svgo: '^0.6.0',
+50 silly install resolved        'temp-write': '^2.1.0',
+50 silly install resolved        tempfile: '^1.1.1',
+50 silly install resolved        'zopflipng-bin': '^3.0.1' },
+50 silly install resolved     devDependencies:
+50 silly install resolved      { 'espower-loader': '^1.0.0',
+50 silly install resolved        'intelli-espower-loader': '^1.0.0',
+50 silly install resolved        mocha: '^2.3.4',
+50 silly install resolved        'power-assert': '^1.2.0' },
+50 silly install resolved     keywords:
+50 silly install resolved      [ 'compress',
+50 silly install resolved        'minify',
+50 silly install resolved        'optimize',
+50 silly install resolved        'image',
+50 silly install resolved        'img',
+50 silly install resolved        'jpg',
+50 silly install resolved        'jpeg',
+50 silly install resolved        'png',
+50 silly install resolved        'gif',
+50 silly install resolved        'svg',
+50 silly install resolved        'gulpplugin' ],
+50 silly install resolved     gitHead: 'c46766d35a097333c6a6b000dc5825294cc3ebd4',
+50 silly install resolved     homepage: 'https://github.com/1000ch/gulp-image#readme',
+50 silly install resolved     _id: 'gulp-image@1.2.1',
+50 silly install resolved     _shasum: '1c5a89a2dcfc3e7c59e54df5ed5f18b0a68c811b',
+50 silly install resolved     _from: 'gulp-image@*',
+50 silly install resolved     _npmVersion: '3.3.12',
+50 silly install resolved     _nodeVersion: '5.1.0',
+50 silly install resolved     _npmUser: { name: '1000ch', email: 'shogo.sensui@gmail.com' },
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '1c5a89a2dcfc3e7c59e54df5ed5f18b0a68c811b',
+50 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-image/-/gulp-image-1.2.1.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-image/-/gulp-image-1.2.1.tgz',
+50 silly install resolved     readme: 'ERROR: No README data found!' } ]
+51 info install gulp-image@1.2.1 into C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup
+52 info installOne gulp-image@1.2.1
+53 verbose installOne of gulp-image to C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup not in flight; installing
+54 verbose lock using C:\Users\Home\AppData\Roaming\npm-cache\_locks\gulp-image-0c1cd4fb94aca926.lock for C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+55 silly install write writing gulp-image 1.2.1 to C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+56 verbose unbuild node_modules\gulp-image
+57 info preuninstall gulp-image@1.2.1
+58 info uninstall gulp-image@1.2.1
+59 verbose unbuild rmStuff gulp-image@1.2.1 from C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules
+60 info postuninstall gulp-image@1.2.1
+61 silly gentlyRm C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image is being purged from base C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup
+62 verbose gentlyRm don't care about contents; nuking C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+63 silly vacuum-fs purging C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+64 verbose unlock done using C:\Users\Home\AppData\Roaming\npm-cache\_locks\gulp-image-0c1cd4fb94aca926.lock for C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+65 verbose stack Error: EPERM, unlink 'C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md'
+65 verbose stack     at Error (native)
+66 verbose cwd C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup
+67 error Windows_NT 6.3.9600
+68 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-image" "--save-dev"
+69 error node v0.12.4
+70 error npm  v2.10.1
+71 error path C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md
+72 error code EPERM
+73 error errno -4048
+74 error Error: EPERM, unlink 'C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md'
+74 error     at Error (native)
+74 error  { [Error: EPERM, unlink 'C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md']
+74 error   errno: -4048,
+74 error   code: 'EPERM',
+74 error   path: 'C:\\Users\\Home\\Documents\\Projects\\PersonalPage\\gulpsetup\\node_modules\\gulp-image\\readme.md' }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -4048, true ]
+77 verbose unbuild node_modules\gulp-image
+78 silly gentlyRm C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image is being purged from base C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup
+79 verbose gentlyRm don't care about contents; nuking C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+80 silly vacuum-fs purging C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image
+81 error error rolling back Error: EPERM, unlink 'C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md'
+81 error error rolling back     at Error (native)
+81 error error rolling back  { [Error: EPERM, unlink 'C:\Users\Home\Documents\Projects\PersonalPage\gulpsetup\node_modules\gulp-image\readme.md']
+81 error error rolling back   errno: -4048,
+81 error error rolling back   code: 'EPERM',
+81 error error rolling back   path: 'C:\\Users\\Home\\Documents\\Projects\\PersonalPage\\gulpsetup\\node_modules\\gulp-image\\readme.md' }
